@@ -2,7 +2,7 @@
 
 # Tidebloom Journeys
 
-**A complete creature-taming RPG, written by hand in ARM64 assembly.**
+**A complete creature-taming RPG, in ARM64 assembly. Codebase is AI written as I wanted to test out a new model.**
 
 No game engine. No C. About 11,000 lines of assembly for the gameplay, the pixel renderer, the animation and the music synthesizer.
 
