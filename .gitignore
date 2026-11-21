@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Build output (make it again with ./build.sh)
+Tidebloom-Journeys.app/
+*.dSYM/
+
+# Player saves and save-test files
+*.dat
+*.dat.tmp.*
+*.selftest
+*.selftest.tmp.*
+
+# Snapshot and demo-recording output
+*.bmp
+video.bgra
+audio.pcm
+
+# Old plain-text readme (README.md replaces it)
+README.txt
