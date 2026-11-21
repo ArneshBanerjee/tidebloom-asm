@@ -49,7 +49,21 @@ No game engine. No C. About 11,000 lines of assembly for the gameplay, the pixel
 
 ![Battle and evolution](docs/media/battle.gif)
 
-## Build and play
+## Download and play
+
+1. Download `Tidebloom-Journeys-macOS-arm64.zip` from the [latest release](https://github.com/ArneshBanerjee/tidebloom-asm/releases/latest).
+2. Unzip the file. Move `Tidebloom-Journeys.app` to a folder you can write to, for example your Desktop. The game keeps its save file beside the app.
+3. The app does not have an Apple Developer ID signature, so macOS blocks the first launch. To let it open, run this command in the folder that has the app:
+
+```bash
+xattr -dr com.apple.quarantine Tidebloom-Journeys.app
+```
+
+4. Open `Tidebloom-Journeys.app`.
+
+You need an Apple Silicon Mac with macOS 27 or newer. The app includes the SDL libraries.
+
+## Build from source
 
 You need an Apple Silicon Mac, Apple's command-line tools and SDL2.
 
